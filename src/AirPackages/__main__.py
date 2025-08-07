@@ -1,5 +1,6 @@
 from .cli import app
 import air
+import uvicorn
 
 app = air.Air()
 packages = ['feldroy/air', 'feldroy/air-cli', 'feldroy/air-convert', 'feldroy/air-markdown', 'feldroy/airdocs', 'feldroy/AirPackages', 'kentro-tech/eidosui',]
@@ -24,4 +25,4 @@ async def index():
 
 
 if __name__ == "__main__":
-    app()
+    uvicorn.run("AirPackages.__main__:app", reload=True)
