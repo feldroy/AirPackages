@@ -3,7 +3,7 @@ import air
 import uvicorn
 
 app = air.Air()
-packages = ['feldroy/air', 'feldroy/air-cli', 'feldroy/air-convert', 'feldroy/air-markdown', 'feldroy/airdocs', 'feldroy/AirPackages', 'kentro-tech/eidosui',]
+packages = ['feldroy/air', 'feldroy/air-cli', 'feldroy/air-convert', 'feldroy/air-markdown', 'feldroy/airdocs', 'feldroy/AirPackages', 'kentro-tech/EidosUI',]
 examples = ['kentro-tech/web-dev-patterns', 'ndanielsen/air-address-demo',]
 
 
