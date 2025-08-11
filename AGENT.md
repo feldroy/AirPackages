@@ -1,7 +1,8 @@
 # AGENT.md - AirPackages Development Guide
 
 ## Commands
-- Run server with reload: `uv run fastapi dev --reload`
+- Run server with reload: `uv run fastapi dev main.py --reload`
+    - Note: Normally I have this running in a separate terminal, so you can assume this is already running in the background.
 - Test all: `pytest` or `make test`
 - Test single: `pytest tests/test_specific.py::test_function`
 - QA (lint/format/types): `make qa` or `uv run --extra test ruff check . --fix && ruff format . && ty check .`
